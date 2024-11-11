@@ -1,3 +1,10 @@
+:root {
+  --primary-background: #fff;
+  --second-background: #000;
+  --primary-text: #000;
+  --second-text: #fff;
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -234,7 +241,7 @@ h4 {
 }
 
 .container {
-  width: 1406px;
+  width: 1410px;
 }
 
 .row {
@@ -1501,6 +1508,39 @@ h4 {
   .d-sm-none {
     display: none !important;
   }
+}
+.header__content-top {
+  display: flex;
+  padding: 5px 20px;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--second-text);
+  background: var(--second-background);
+}
+@media (max-width: 767.98px) {
+  .header__content-top {
+    padding: 8px 15px;
+  }
+}
+.header__content-top--arrow {
+  padding: 7px;
+}
+.header__content-top--arrow:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.header__phone, .header__address {
+  font-size: 1.4rem;
+  line-height: 171.429%;
+}
+.header__logo {
+  margin: 10px 0;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 75%;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */

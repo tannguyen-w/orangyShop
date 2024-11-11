@@ -2,6 +2,7 @@
 
 // Breakpoints, dimension, container, row, column, v.v
 $grid-breakpoints: (
+    xxxl: 1920px,
     xxl: 1400px,
     xl: 1200px,
     lg: 992px,
@@ -14,6 +15,7 @@ $container-max-widths: (
     lg: 720px,
     xl: 960px,
     xxl: 1140px,
+    xxxl: 1410px,
 );
 $grid-columns: 12 !default;
 $grid-gutter-width: 30px !default;

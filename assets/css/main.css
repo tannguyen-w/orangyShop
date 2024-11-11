@@ -1543,4 +1543,59 @@ h4 {
   text-align: center;
 }
 
+.hero-banner__inner {
+  background: url(../../assets/images/banner/hero-banner.png) no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-banner__info {
+  width: min(350px, 100%);
+  color: var(--second-text);
+  text-align: center;
+}
+.hero-banner__slogan {
+  font-size: 7.2rem;
+  line-height: 125%;
+}
+@media (max-width: 767.98px) {
+  .hero-banner__slogan {
+    font-size: 5.6rem;
+    line-height: 137.143%;
+  }
+}
+.hero-banner__desc {
+  margin-top: 24px;
+  font-size: 1.8rem;
+  line-height: 166.667%;
+}
+@media (max-width: 767.98px) {
+  .hero-banner__desc {
+    margin-top: 12px;
+  }
+}
+.hero-banner__explore {
+  display: inline-block;
+  margin-top: 32px;
+  margin-bottom: 3px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 150%;
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+  translate: 0 4px;
+  transition: translate 0.2s;
+}
+@media (max-width: 767.98px) {
+  .hero-banner__explore {
+    margin-top: 24px;
+  }
+}
+.hero-banner__explore:hover {
+  translate: 0;
+}
+
 /*# sourceMappingURL=main.css.map */

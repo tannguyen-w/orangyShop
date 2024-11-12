@@ -11,3 +11,28 @@ const discounted = () => {
 };
 
 discounted();
+
+var splide = new Splide(".splide", {
+    perPage: 4,
+    type: "loop",
+    gap: 10,
+    arrows: false,
+    pagination: false,
+});
+
+var splide1 = new Splide(".splide", {
+    perPage: 1.5,
+    type: "loop",
+    gap: 10,
+    arrows: false,
+    pagination: false,
+});
+
+const screenWidth = window.innerWidth;
+console.log(screenWidth);
+
+if (screenWidth < 768) {
+    splide1.mount();
+} else {
+    splide.mount();
+}

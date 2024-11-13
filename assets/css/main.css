@@ -1903,6 +1903,7 @@ h4 {
 
 .carousel {
   margin: 100px 0;
+  overflow: hidden;
 }
 @media (max-width: 991.98px) {
   .carousel {
@@ -1916,22 +1917,18 @@ h4 {
 }
 .carousel__inner {
   display: flex;
-  justify-content: flex-start;
-  overflow: hidden;
+  animation: move 10s linear infinite;
 }
 .carousel__item {
   display: flex;
   align-items: center;
-  gap: 40px;
-  min-width: 100%;
-  height: 100%;
-  animation: move 10s linear infinite;
 }
 .carousel__heading {
   white-space: nowrap;
   font-size: 7.4rem;
   line-height: 121.622%;
   color: #ccc;
+  padding: 0 40px;
 }
 @media (max-width: 767.98px) {
   .carousel__heading {

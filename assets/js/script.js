@@ -29,7 +29,6 @@ var splide1 = new Splide(".splide", {
 });
 
 const screenWidth = window.innerWidth;
-console.log(screenWidth);
 
 if (screenWidth < 768) {
     splide1.mount();

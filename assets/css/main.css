@@ -2070,4 +2070,48 @@ h4 {
   }
 }
 
+.single-banner {
+  position: relative;
+  margin-top: 100px;
+  background: url(../../assets/images/banner/banner-01.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.single-banner__inner {
+  padding: 40px 0 100px;
+  background: rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 767.98px) {
+  .single-banner__inner {
+    padding: 230px 0 142px;
+  }
+}
+.single-banner__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+  color: var(--second-text);
+}
+.single-banner__title {
+  font-size: 5.6rem;
+  line-height: 142.857%;
+}
+@media (max-width: 767.98px) {
+  .single-banner__title {
+    font-size: 4.8rem;
+  }
+}
+.single-banner__desc {
+  margin-top: 24px;
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+@media (max-width: 767.98px) {
+  .single-banner__desc {
+    margin-top: 12px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

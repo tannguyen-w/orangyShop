@@ -2129,6 +2129,7 @@ h4 {
   color: var(--second-text);
 }
 .single-banner__title {
+  text-align: center;
   font-size: 5.6rem;
   line-height: 142.857%;
 }
@@ -2150,6 +2151,237 @@ h4 {
 
 .service__inner {
   margin: 80px 0;
+}
+@media (max-width: 767.98px) {
+  .service__inner {
+    margin: 50px 0;
+  }
+}
+
+.contact {
+  background: #f6f2ee;
+}
+.contact__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 246px 0;
+}
+@media (max-width: 767.98px) {
+  .contact__inner {
+    flex-direction: column;
+    padding: 236px 0 200px 0;
+  }
+}
+.contact__imgs {
+  position: relative;
+}
+.contact__img {
+  position: absolute;
+}
+.contact__img--one {
+  width: 310px;
+  height: 310px;
+  top: -290px;
+  left: 28px;
+}
+@media (max-width: 1399.98px) {
+  .contact__img--one {
+    width: 270px;
+    height: 270px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .contact__img--one {
+    width: 230px;
+    height: 230px;
+    top: -250px;
+  }
+}
+@media (max-width: 991.98px) {
+  .contact__img--one {
+    top: -320px;
+  }
+}
+@media (max-width: 767.98px) {
+  .contact__img--one {
+    top: -200px;
+    left: -60px;
+  }
+}
+.contact__img--two {
+  width: 180px;
+  height: 180px;
+  left: -35px;
+  top: -50px;
+}
+@media (max-width: 1399.98px) {
+  .contact__img--two {
+    width: 140px;
+    height: 140px;
+    left: -25px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .contact__img--two {
+    width: 100px;
+    height: 100px;
+    left: -15px;
+    top: -70px;
+  }
+}
+@media (max-width: 991.98px) {
+  .contact__img--two {
+    top: -120px;
+  }
+}
+@media (max-width: 767.98px) {
+  .contact__img--two {
+    top: -140px;
+    left: -160px;
+  }
+}
+.contact__img--three {
+  width: 220px;
+  height: 220px;
+  left: 175px;
+  bottom: -315px;
+}
+@media (max-width: 1399.98px) {
+  .contact__img--three {
+    width: 180px;
+    height: 180px;
+    left: 145px;
+    bottom: -245px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .contact__img--three {
+    width: 140px;
+    height: 140px;
+    bottom: -150px;
+    left: 125px;
+  }
+}
+@media (max-width: 991.98px) {
+  .contact__img--three {
+    bottom: -200px;
+    left: 85px;
+  }
+}
+@media (max-width: 767.98px) {
+  .contact__img--three {
+    bottom: 20px;
+    left: 60px;
+  }
+}
+.contact__img--four {
+  width: 330px;
+  height: 330px;
+  bottom: 0;
+  right: 0;
+}
+@media (max-width: 1399.98px) {
+  .contact__img--four {
+    width: 290px;
+    height: 290px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .contact__img--four {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (max-width: 991.98px) {
+  .contact__img--four {
+    bottom: 60px;
+  }
+}
+@media (max-width: 767.98px) {
+  .contact__img--four {
+    bottom: -160px;
+    right: 60px;
+  }
+}
+.contact__img--five {
+  width: 250px;
+  height: 250px;
+  top: 5px;
+  right: 150px;
+}
+@media (max-width: 1399.98px) {
+  .contact__img--five {
+    width: 210px;
+    height: 210px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .contact__img--five {
+    width: 160px;
+    height: 160px;
+  }
+}
+@media (max-width: 991.98px) {
+  .contact__img--five {
+    top: 50px;
+    right: 60px;
+  }
+}
+@media (max-width: 767.98px) {
+  .contact__img--five {
+    top: 36px;
+    right: -160px;
+  }
+}
+@media (max-width: 767.98px) {
+  .contact__img {
+    width: 110px;
+    height: 110px;
+  }
+}
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact__desc {
+  text-align: center;
+  width: 140px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+@media (max-width: 767.98px) {
+  .contact__desc {
+    width: 100%;
+  }
+}
+.contact__address {
+  margin-top: 20px;
+  width: 370px;
+  text-align: center;
+  font-size: 3.2rem;
+  line-height: 175%;
+}
+@media (max-width: 767.98px) {
+  .contact__address {
+    margin-top: 12px;
+  }
+}
+.contact__btn {
+  margin-top: 32px;
+  padding: 9px 40px;
+  border: 1px solid #d1ceca;
+}
+@media (max-width: 767.98px) {
+  .contact__btn {
+    margin-top: 24px;
+  }
+}
+.contact__btn:hover {
+  opacity: 0.9;
 }
 
 /*# sourceMappingURL=main.css.map */
